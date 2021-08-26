@@ -1,0 +1,23 @@
+server:
+  port: 27149
+res_poss: 5
+#沙雕网站接口配置shadiao.app
+shadiao:
+  chp_url: "https://chp.shadiao.app/api.php"
+  pyq_url: "https://pyq.shadiao.app/api.php"
+  du_url: "https://du.shadiao.app/api.php"
+  nmsl_url: "https://nmsl.shadiao.app/api.php?level=min&lang=zh_cn"
+  xh_url: "http://www.yduanzi.com/duanzi/getduanzi"
+#王平平网站接口配置wangpinpin.com
+wpp:
+  base_url: "https://api.wangpinpin.com/unAuth/getDoglickingDiary?typeId="
+  tg_url: "0c97d296-e5b1-11ea-9d4b-00163e1e93a5"
+  nw_url: "485eee9c-e603-11ea-9d4b-00163e1e93a5"
+  sc_url: "c4c2abc1-e5b7-11ea-9d4b-00163e1e93a5"
+#茉莉机器人接口配置
+#http://i.itpk.cn/api.php?question=日你妈&limit=8&api_key=0d264fefe55c487255e8fc245ee5639c&api_secret=mpdhgj5ni4qk
+moli:
+  base_url: "http://i.itpk.cn/api.php?"
+  limit: "8"
+  api_key: "0d264fefe55c487255e8fc245ee5639c"
+  api_secret: "mpdhgj5ni4qk"
